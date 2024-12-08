@@ -1,0 +1,136 @@
+strong {
+  color: #1368e7;
+}
+ul,
+li {
+  text-align: justify;
+  line-height: 2;
+}
+.body {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+}
+.container-fluit {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  font-family: Lucida Sans Unicode;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.head-line {
+  width: 100px;
+  height: 2px;
+  background-color: #1368e7;
+  margin: 10px auto 10px;
+  border-radius: 8px;
+}
+.sections {
+  margin: 8% auto;
+}
+.about-section,
+.emirs {
+  padding: 2% 12% 0;
+  margin: 0 auto;
+}
+.schools,
+.offices {
+  padding: 0 16%;
+  margin: 0 auto;
+}
+.about-text {
+  text-align: justify;
+}
+.areas {
+  padding: 0 30%;
+  margin: 0 auto;
+}
+.heading {
+  margin: 10% auto 2%;
+  text-align: center;
+}
+.second-head {
+  color: #1368e7;
+}
+#emirs-image {
+  border-radius: 10%;
+}
+.paragraphs {
+  margin: 0;
+}
+.a {
+  color: #1368e7;
+  text-decoration: none;
+}
+.a:hover {
+  color: #b4acac;
+}
+.bx {
+  padding: 0.3%;
+}
+.bxl-facebook {
+color: #084a83;
+}
+.bxl-whatsapp {
+  color: #557a46;
+}
+.bxl-instagram {
+  color: #df0e62;
+}
+.bxl-twitter {
+  color: #a5dee5;
+}
+.distance {
+  padding: 0 20%;
+}
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #000000;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1368e7;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+#back-to-top:hover {
+  background-color: #b4acac;
+  color: #fff;
+}
+#back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
